@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7523FC95-84AD-473B-8642-A8B7F52A555A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AutoAdjustment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A73524666B1C81CAC7B404211C9DE70E2B068FF9</key>
+		<string>https://github.com/sharkhack/IOS-Image-Auto-Adjustment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OBJ-C/AutoAdjustment/AutoAdjustment.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A73524666B1C81CAC7B404211C9DE70E2B068FF9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sharkhack/IOS-Image-Auto-Adjustment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A73524666B1C81CAC7B404211C9DE70E2B068FF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A73524666B1C81CAC7B404211C9DE70E2B068FF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS-Image-Auto-Adjustment</string>
+		</dict>
+	</array>
+</dict>
+</plist>

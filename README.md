@@ -12,6 +12,19 @@ This AIR Native Extension exposes Image Auto Adjustment to Adobe AIR.
 
 - You can also find out about the built-in filters on a system by using the Core Image API. See [Core Image Programming Guide](https://developer.apple.com/library/mac/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_intro/ci_intro.html#//apple_ref/doc/uid/TP30001185)
 
+```objective-c
+
+	CIImage *inputImage             = [CIImage imageWithCGImage: inputImageRef];
+    
+    NSDictionary* d = [[inputImage properties] valueForKey:(__bridge NSString *)kCGImagePropertyOrientation];
+    NSArray *adjustments = [inputImage autoAdjustmentFiltersWithOptions:d];
+    for (CIFilter *filter in adjustments) {
+        [filter setValue:inputImage forKey:kCIInputImageKey];
+        inputImage = filter.outputImage;
+    }
+
+```
+
 USAGE (*/AS3/Test/IOSAutoAdjustTest*)
 
 ```actionscript
